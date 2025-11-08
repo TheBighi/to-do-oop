@@ -12,7 +12,7 @@ class todoController {
 
         res.json({
             message: 'created new todo object',
-            newTask: newTodo
+            newTodo: newTodo
         })
     }
     getTodos(req, res){
